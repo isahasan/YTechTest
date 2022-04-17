@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Whyte Inktrap';
+    src: url('WhyteInktrap-Regular.woff2') format('woff2'),
+        url('WhyteInktrap-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whyte Inktrap';
+    src: url('WhyteInktrap-Light.woff2') format('woff2');
+        /* url('WhyteInktrap-Light.woff') format('woff'); */
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whyte Inktrap';
+    src: url('WhyteInktrap-Italic.woff2') format('woff2');
+        /* url('WhyteInktrap-Italic.woff') format('woff'); */
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whyte Inktrap Book';
+    src: url('WhyteInktrap-Book.woff2') format('woff2');
+        /* url('WhyteInktrap-Book.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whyte Book';
+    src: url('Whyte-Book.woff2') format('woff2'),
+        url('Whyte-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

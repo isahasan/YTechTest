@@ -1,0 +1,25 @@
+.rectangle{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.rectangle_text {
+    position: inherit;
+}
+.rectangle_text::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    display: inline-block;
+    border-radius: 0;
+    background-color: transparent;
+    border: 5px solid var(--white);
+    transition: border-radius .3s ease;
+}
+.rectangle_text.active:hover::before{
+    border-radius: 50px;
+}

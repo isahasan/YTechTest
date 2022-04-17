@@ -1,0 +1,159 @@
+@import url("../src/Assets/Fonts/stylesheet.css");
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: "Whyte Inktrap Book";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 68px;
+  background-color: var(--navy-blue);
+}
+
+:root {
+  --white: #f6ffff;
+  --off-white: #ebeeef;
+  --light-green: #23e5db;
+  --navy-blue: #001e3d;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  scroll-behavior: unset;
+  font-size: 62.5%;
+  font-family: 'Whyte Inktrap Book', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;  
+  background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f6ffff;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'Whyte Inktrap Book', sans-serif;
+  font-weight: normal;
+  color: var(--black);
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:focus-visible {
+  outline: none;
+}
+
+span {
+  display: inline-block;
+}
+
+/* ==input and button type focus & outline style== */
+input[type="text"]:focus,
+input[type="checkbox"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn.focus,
+.btn:focus,
+button:focus,
+button:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+.App{
+  height: 1000px;
+}
+
+@media (min-width: 1600px) {}
+
+@media (max-width: 1919.98px) {
+  /* html {
+    font-size: 54%;
+  } */
+}
+
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media(max-width: 575.98px) {
+  /* html {
+    font-size: 62.5%;
+  } */
+}
+
+

@@ -1,0 +1,13 @@
+.c_button{
+    border: 3px solid #001e3d;
+    background-color: transparent;
+    border-radius: 35px;
+    padding: calc(16.83333px + 0.2451vw) calc(17.66667px + 0.4902vw) calc(16.33333px + 0.09804vw);
+    transition: background-color .6s cubic-bezier(.075,.82,.165,1),color .6s cubic-bezier(.075,.82,.165,1);
+    font-size: calc(16.66667px + .19608vw);
+    font-family: whyte-ink-regular;
+    color: #001e3d;
+    line-height: 1;
+    letter-spacing: -.02em;
+    text-transform: uppercase;
+}

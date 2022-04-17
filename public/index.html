@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!-- Specifies the character encoding for the HTML document -->
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+     <!-- Application Description -->
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+       <!-- Icon for Apple Devices -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+   
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+     <!-- Bootstrap 5 css -->
+     <link rel="stylesheet" href="%PUBLIC_URL%/Bootstrap-5/bootstrap.min.css">
+
+  
+    <title>Ytech Technology is human-level Magic</title>
+  </head>
+  <body>
+        <!-- For Non JavaScript Supported Browsers -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- To Render Index Js File -->
+    <div id="root"></div>
+    <!-- Scroll rotate js -->
+    <script>
+      window.onscroll = function () {
+        scrollRotate();
+      };
+      function scrollRotate() {
+        let image = document.getElementById("HomePageBanner");
+        let star = document.getElementById("star");
+        image.style.transform = "rotate(" + window.pageYOffset / 30 + "deg)";
+        star.style.transform = "rotate(" + window.pageYOffset / 20 + "deg)";
+      }
+    </script>
+  </body>
+</html>

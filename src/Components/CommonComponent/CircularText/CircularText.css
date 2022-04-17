@@ -1,0 +1,25 @@
+.circular{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.circular_text {
+    position: inherit;
+}
+.circular_text::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 5px solid var(--white);
+    transition: border-radius .3s ease;
+}
+.circular_text.active:hover::before{
+    border-radius: 0;
+}

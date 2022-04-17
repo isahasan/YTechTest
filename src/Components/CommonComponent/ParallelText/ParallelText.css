@@ -1,0 +1,26 @@
+.parallelogram{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.parallelogram_text {
+    position: inherit;
+}
+.parallelogram_text::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    /* display: inline-block; */
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    border: 5px solid ;
+    transition: transform .3s ease;
+}
+.parallelogram_text.active:hover::before{
+    transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+}
